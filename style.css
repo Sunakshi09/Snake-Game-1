@@ -4,8 +4,19 @@
 }
 
 .body {
-  background: url(cobra.jpg);   /* I get the image from bing.com freeimages*/
+  background: url(cobra.jpg); /* I get the image from bing.com freeimages*/
   background-size: 165vw 140vh;
   min-height: 100vh;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ground {
+  background: linear-gradient(rgb(204, 227, 204), rgb(166, 172, 61));
+  width: 80vmin;
+  height: 80vmin;
+  border-style: groove;   
+  border-color: black;
 }
