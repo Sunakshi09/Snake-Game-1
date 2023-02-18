@@ -17,7 +17,7 @@ Snake Game is a free thinking game for childrens and adults like, Where the goal
 
 ## Game Logic
 
-Control the direction of the snake by turning it either up, down, left or right.
+The snake's turn has a logic that it can't retreat in the opposite direction. For example, it is moving left and can't turn directly right. Therefore, there are corresponding conditional judgments in turnUp, turnRight, turnDown and turnleft.
 Your snake grows longer the more food or fruits it eats.
 Collect as many fruits as you can to increase your score.
 If you break the hit score an another hit score will show.
@@ -25,25 +25,31 @@ The game ends if you bump into the wall.
 
 ## Deliverables
 
-> Even if you have a great big idea for a game, it's important to scope this project according to what you can get done in the next two weeks. We'll refer to your project completion goal using the term **[Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product) (MVP)** -- a list of the criteria needed to "ship" a playable version of your game that meets the project requirements.
->
-> _Don't lose sight of your big ideas, though! Keep a list of further improvements you can refer to as **Post-MVP Ideas**. You might finish some before our project time is done, or you might work on them later!_
->
-> For your README, delete this blockquote and fill in the lists below.
+Collision detection between snake and itself
+Collision detection between snakes and obstacles
+Collision detection between snake and food
+Snake movement
 
 ### MVP Criteria
 
 - Your game must be winnable and clearly shows there’s a winner.
+- My game shows a clear and obvious winner.
 - You must provide clear, easily accessible instructions on how to play the game.
+- Instructions will be held on the main page of the site.
 - Another thing my game must do to meet my minimum standard.
-- One more thing.
+- To truly win Snake, players must fill up the entire map without hitting their tail, or snake itself or the wall
+  around them.
+- What you learn from playing Snake
+- Playing snake can help improve hand-eye coordination and reaction time, since you'll have to act fast to keep the
+  snake from crashing.
 - Etc.
 
 ### Post-MVP Plans
 
-- One great idea I hope to be able to add in before the project deadline.
-- Another that will be a stretch.
-- Something else I don't technically know how to do... _yet_. :)
+- I'm going to try to add in a game that has a few levels, and a few levels are easy, and the rest are hard.
+  -create scoring board.
+  -create a leaderboard that saves hit scores.
+- Trying to make it simple because the simple graphics of the game make it easy to play.
 
 ## Project Planning
 
