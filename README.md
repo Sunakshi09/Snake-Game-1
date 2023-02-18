@@ -1,5 +1,7 @@
 # Snake-Game-1# NYU-SD-01 Milestone Project: Planning
 
+![Snake Game Placeholder](/cobra.jpg)
+
 #This is my first project on how to create the Snake Game using HTML, CSS & JAVASCRIPT... But first let me tell you about Snake Game History in brief. It originated in the 1976 two-player arcade video game Blockade from Gremlin Industries where the goal is to survive longer than the other player. The concept evolved into a single-player variant where a snake gets longer with each piece of food or apples eaten—often.
 The aim of the game is to collect the food(dots) and avoid the obstacles. As you collect food, the snake gets longer so increasing your likelihood of crashing into yourself.
 
@@ -53,11 +55,12 @@ Snake movement
 
 ## Project Planning
 
-| Date      | Goals                                                                    |
-| --------- | ------------------------------------------------------------------------ |
-| Mon. 2/13 | Create GitHub repository. Complete README.md.                            |
-| Wed. 2/15 | Have "pong" functionality working with object colision.                  |
-| Sat. 2/18 | Have computer opponent moving on own and a "reset" button working.       |
-| Mon. 2/20 | Be able to toggle between 1 and 2 players, and have background change.   |
-| Wed. 2/22 | Have match scores save in local storage, troubleshoot, improve styling.  |
-| Sat. 2/25 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
+| Date      | Goals                                                                                                                              |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Mon. 2/13 | Create GitHub repository. Complete README.md. according to official template.                                                      |
+| Wed. 2/15 | Deploy your repo to GitHub Pages and make sure it deploys correctly.                                                               |
+| Sat. 2/18 | Work day in class.                                                                                                                 |
+| Mon. 2/20 | No class: President’s Day.                                                                                                         |
+| Wed. 2/22 | Work day in class.                                                                                                                 |
+| Sat. 2/25 | Test that project works, also ensuring your GitHub Pages deploy is up to date and working successfully ahead of your final commit. |
+| Mon. 2/27 | Submit your completed project. Present your project.                                                                               |

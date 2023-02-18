@@ -13,13 +13,21 @@
   align-items: center;
 }
 
-#ground {
+#board {
   background: linear-gradient(rgb(204, 227, 204), rgb(166, 172, 61));
   width: 80vmin;
   height: 80vmin;
   border-style: solid;
   border-color: rgb(7, 7, 7);
   display: grid;
-  grid-template-rows: repeat(16, 1fr);
-  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+  grid-template-columns: repeat(17, 1fr);
+}
+
+.head {
+  background-color: rgb(27, 6, 55);
+}
+
+.food {
+  background-color: rgb(244, 51, 51);
 }
