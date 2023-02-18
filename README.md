@@ -1,25 +1,27 @@
 # Snake-Game-1# NYU-SD-01 Milestone Project: Planning
 
-_Before you start programming your project_... plan it!
+#This is my first project on how to create the Snake Game using HTML, CSS & JAVASCRIPT... But first let me tell you about Snake Game History in brief. It originated in the 1976 two-player arcade video game Blockade from Gremlin Industries where the goal is to survive longer than the other player. The concept evolved into a single-player variant where a snake gets longer with each piece of food or apples eaten—often.
+The aim of the game is to collect the food(dots) and avoid the obstacles. As you collect food, the snake gets longer so increasing your likelihood of crashing into yourself.
 
-Complete the planning sections below and include them in the README.md of your project repository. Once you're done, reach out to your instructional staff -- they'll examine your plan, help you scope it appropriately for the tools available to you and think ahead toward technical solutions, and point out any areas that could use any more thought. _Use the template below!_
+The projects consists of:-
+
+1. Index.html:- Simple HTML page to open in a browser
+2. Style.css:- Styling for the HTML page
+3. Index.js:- logic file and functionality for the snake game
 
 ---
 
-## Project Description
+# Project Description
 
-_(Replace this text with a brief description of your game and what inspired you to make it.)_
+Snake Game is a free thinking game for childrens and adults like, Where the goal is to guide the snake to eat as many food as possible. I inspired by the old mobile games and one of my childhood game. But the purpose that i make this game is because the snake is one of famous game on Nokia 3310 before the smart phone is published in the market. And now i didn't see a lot of same snake game in the app store. In this case i decided to let's give it a shot and work on this project.
 
 ## Game Logic
 
-```
-Replace this text with pseudocode.
-The pseudocode should describe in plain, simple language the logic of the game.
-Describe the logic involved in player decisions.
-  - What are the choices available to the player?
-  - What happens when the player makes a choice?
-Describe the logic that evaluates the player's victory/loss/progress status.
-```
+Control the direction of the snake by turning it either up, down, left or right.
+Your snake grows longer the more food or fruits it eats.
+Collect as many fruits as you can to increase your score.
+If you break the hit score an another hit score will show.
+The game ends if you bump into the wall.
 
 ## Deliverables
 
@@ -47,9 +49,9 @@ Describe the logic that evaluates the player's victory/loss/progress status.
 
 | Date      | Goals                                                                    |
 | --------- | ------------------------------------------------------------------------ |
-| Mon. 7/11 | Create GitHub repository. Complete README.md.                            |
-| Wed. 7/13 |                                                                          |
-| Sat. 7/16 |                                                                          |
-| Mon. 7/18 |                                                                          |
-| Wed. 7/20 |                                                                          |
-| Sat. 7/23 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
+| Mon. 2/13 | Create GitHub repository. Complete README.md.                            |
+| Wed. 2/15 | Have "pong" functionality working with object colision.                  |
+| Sat. 2/18 | Have computer opponent moving on own and a "reset" button working.       |
+| Mon. 2/20 | Be able to toggle between 1 and 2 players, and have background change.   |
+| Wed. 2/22 | Have match scores save in local storage, troubleshoot, improve styling.  |
+| Sat. 2/25 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
