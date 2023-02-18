@@ -1,6 +1,6 @@
 # Snake-Game-1# NYU-SD-01 Milestone Project: Planning
 
-![Snake Game Placeholder](/cobra.jpg)
+![Snake Game Placeholder](/https://github.com/Platane/snk)
 
 #This is my first project on how to create the Snake Game using HTML, CSS & JAVASCRIPT... But first let me tell you about Snake Game History in brief. It originated in the 1976 two-player arcade video game Blockade from Gremlin Industries where the goal is to survive longer than the other player. The concept evolved into a single-player variant where a snake gets longer with each piece of food or apples eaten—often.
 The aim of the game is to collect the food(dots) and avoid the obstacles. As you collect food, the snake gets longer so increasing your likelihood of crashing into yourself.
