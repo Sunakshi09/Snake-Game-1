@@ -1,15 +1,16 @@
 name: Generate Snake
-on: schedule: # execute every 5 hours
-- cron: "* */5 * * *"
+on: 
+schedule: # execute every 6 hours
+- cron: "* */6 * * *"
 
 jobs:
 build:
-name: jobs to update snake
+name: Jobs to update snake
 runs-on: windows-latest
 uses: actions/checkout@v2
 
     # Generates the snake  
-      - uses: Platane/snk@main
+      - uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: Sunakshi09
