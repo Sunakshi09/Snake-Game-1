@@ -55,12 +55,12 @@ Snake movement
 
 ## Project Planning
 
-| Date      | Goals                                                                                                                              |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Mon. 2/13 | Create GitHub repository. Complete README.md. according to official template.                                                      |
-| Wed. 2/15 | Deploy your repo to GitHub Pages and make sure it deploys correctly.                                                               |
-| Sat. 2/18 | Work day in class.                                                                                                                 |
-| Mon. 2/20 | No class: President’s Day.                                                                                                         |
-| Wed. 2/22 | Work day in class.                                                                                                                 |
-| Sat. 2/25 | Test that project works, also ensuring your GitHub Pages deploy is up to date and working successfully ahead of your final commit. |
-| Mon. 2/27 | Submit your completed project. Present your project.                                                                               |
+| Date Goals |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Mon. 2/13  | Create GitHub repository. Complete README.md. according to official template.                                                      |
+| Wed. 2/15  | Deploy your repo to GitHub Pages and make sure it deploys correctly.                                                               |
+| Sat. 2/18  | Work day in class.                                                                                                                 |
+| Mon. 2/20  | No class: President’s Day.                                                                                                         |
+| Wed. 2/22  | Work day in class.                                                                                                                 |
+| Sat. 2/25  | Test that project works, also ensuring your GitHub Pages deploy is up to date and working successfully ahead of your final commit. |
+| Mon. 2/27  | Submit your completed project. Present your project.                                                                               |
