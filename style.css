@@ -5,7 +5,7 @@
 
 .body {
   background: url(cobra.jpg); /* I get the image from bing.com freeimages*/
-  background-size: 165vw 140vh;
+  background-size: 160vw 130vh;
   min-height: 100vh;
   background-repeat: no-repeat;
   display: flex;
@@ -15,8 +15,8 @@
 
 #board {
   background: linear-gradient(rgb(204, 227, 204), rgb(166, 172, 61));
-  width: 80vmin;
-  height: 80vmin;
+  width: 75vmin;
+  height: 75vmin;
   border-style: solid;
   border-color: rgb(7, 7, 7);
   display: grid;
@@ -24,14 +24,16 @@
   grid-template-columns: repeat(17, 1fr);
 }
 
+.food {
+  background: url(food.png);
+  background-color: rgb(10, 12, 7);
+  
+}
+
 .head {
   background-color: rgb(219, 29, 114);
 }
 
-.snake{
-    background-color: blueviolet;
-}
-
-.food {
-  background-color: rgb(200, 245, 102);
+.snake {
+  background-color: blueviolet;
 }
