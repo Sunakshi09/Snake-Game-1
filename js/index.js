@@ -28,6 +28,7 @@ function isCollision(snake) {
       return true;
     }
   }
+  
   //if snake hit by the wall
   if (
     snake[0].x >= 17 ||
@@ -57,7 +58,7 @@ function gameEngine() {
   if (snakeArr[0].y === food.y && snakeArr[0].x === food.x) {
     foodSound.play();
     score += 1;
-    scoreox.innerHTML = "Score: " + score;
+    scoreBox.innerHTML = "Score: " + score;
     snakeArr.unshift({
       x: snakeArr[0].x + inputDir.x,
       y: snakeArr[0].y + inputDir.y,
