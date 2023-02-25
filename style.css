@@ -50,7 +50,7 @@
   border-radius: 19px;
 }
 .food {
-  background-color: rgb(240, 59, 22);
-  border: 0.22vmin solid black;
+  background: url(food.png);
+  border: 0.22vmin solid rgb(174, 18, 18);
   border-radius: 16px;
 }
