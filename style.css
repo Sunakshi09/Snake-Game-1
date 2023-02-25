@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+      
 * {
   padding: 0;
   margin: 0;
@@ -5,13 +7,13 @@
 
 .body {
   background: url(cobra.jpg); /* I get the image from bing.com freeimages*/
-  background-size: 160vw 130vh;
+  background-size: 168vw 125vh;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#scoreBox {
+#score-box {
   font-size: 35px;
   font-weight: bold;
   color: black;
@@ -20,13 +22,24 @@
   right: 150px;
 }
 
-#hitscoreBox {
+#high-score-box {
   font-size: 35px;
   font-weight: bold;
   color: black;
   position: absolute;
   top: 60px;
-  right: 78px;
+  right: 69px;
+}
+
+#snake-game {
+  font-size: 40px;
+  font-family: 'Tilt Neon', cursive;
+ font-weight: bolder;
+ color: #0d2402;
+ position: absolute;
+ top: 10px;
+
+
 }
 
 #board {
