@@ -7,33 +7,43 @@
   background: url(cobra.jpg); /* I get the image from bing.com freeimages*/
   background-size: 160vw 130vh;
   min-height: 100vh;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+#score {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 8px;
+  right: 150px;
+}
+
+
 
 #board {
   background: linear-gradient(rgb(204, 227, 204), rgb(166, 172, 61));
-  width: 75vmin;
-  height: 75vmin;
+  width: 80vmin;
+  height: 80vmin;
   border-style: solid;
   border-color: rgb(7, 7, 7);
   display: grid;
-  grid-template-rows: repeat(17, 1fr);
-  grid-template-columns: repeat(17, 1fr);
-}
-
-.food {
-  background: url(food.png);
-  background-color: rgb(10, 12, 7);
-  
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
 }
 
 .head {
-  background-color: rgb(219, 29, 114);
+  background-color: rgb(79, 17, 177);
+  border-radius: 7px;
 }
-
 .snake {
-  background-color: blueviolet;
+  background-color: rgb(215, 11, 234);
+  border: 0.22vmin solid black;
+  border-radius: 19px;
+}
+.food {
+  background-color: rgb(240, 59, 22);
+  border: 0.22vmin solid black;
+  border-radius: 15px;
 }
