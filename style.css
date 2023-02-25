@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-      
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -28,22 +28,20 @@
   color: black;
   position: absolute;
   top: 60px;
-  right: 69px;
+  right: 50px;
 }
 
 #snake-game {
   font-size: 40px;
-  font-family: 'Tilt Neon', cursive;
- font-weight: bolder;
- color: #0d2402;
- position: absolute;
- top: 10px;
-
-
+  font-family: "Tilt Neon", cursive;
+  font-weight: bolder;
+  color: #0d2402;
+  position: absolute;
+  top: 10px;
 }
 
 #board {
-  background: linear-gradient(rgb(177, 212, 177), rgb(210, 213, 151));
+  background: linear-gradient(rgb(233, 237, 105), rgb(130, 196, 171));
   width: 80vmin;
   height: 80vmin;
   border-style: solid;
