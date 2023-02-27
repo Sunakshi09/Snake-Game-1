@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
 }
-#score-box {
+#scoreBox {
   font-size: 35px;
   font-weight: bold;
   color: black;
@@ -20,7 +20,7 @@
   right: 150px;
 }
 
-#high-score-box {
+#high-scoreBox {
   font-size: 35px;
   font-weight: bold;
   color: black;
@@ -29,9 +29,7 @@
   right: 50px;
 }
 
-  
 #board {
-  box-shadow: black 20px 10px 50px;
   background: linear-gradient(rgb(231, 235, 101), rgb(130, 196, 171));
   width: 80vmin;
   height: 80vmin;
