@@ -17,11 +17,10 @@ function main(ctime) {
   if ((ctime - lastPaintTime) / 1000 < 1 / speed) {
     return;
   }
-  
+
   lastPaintTime = ctime;
   gameEngine();
 }
-
 
 function isCollision(snake) {
   //if snake bump into itself
@@ -30,7 +29,7 @@ function isCollision(snake) {
       return true;
     }
   }
-  
+
   //if snake hit by the wall
   if (
     snake[0].x >= 17 ||
