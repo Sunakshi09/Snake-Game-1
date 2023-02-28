@@ -45,8 +45,7 @@ Snake movement
 - Etc.
 
 ### Post-MVP Plans
-
-- I'm going to try to add in a game that has a few levels, and a few levels are easy, and the rest are hard.
+  -Score:-
   -create scoring board.
   -create a leaderboard that saves hit scores.
 - Trying to make it simple because the simple graphics of the game make it easy to play.

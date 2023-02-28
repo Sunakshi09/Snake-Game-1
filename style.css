@@ -5,7 +5,7 @@
 
 .body {
   background: url(cobra.jpg); /* I get the image from bing.com freeimages*/
-  background-size: 155vw 125vh;
+  background-size: 150vw 125vh;
   min-height: 100vh;
   display: flex;
   justify-content: center;
