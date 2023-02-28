@@ -63,16 +63,16 @@ ul {
 }
 
 .head {
-  background-color: rgb(68, 28, 136);
+  background-color: rgb(19, 42, 61);
   border-radius: 7px;
 }
 .snake {
-  background-color: rgb(215, 11, 234);
-  border: 0.22vmin solid rgb(219, 228, 130);
-  border-radius: 19px;
-}
+  background-color: rgb(94, 111, 33);
+  border-radius: 17px;
+  }
+
 .food {
   background: url(food.png);
   border: 0.22vmin solid rgb(174, 18, 18);
-  border-radius: 16px;
+  border-radius: 17px;
 }

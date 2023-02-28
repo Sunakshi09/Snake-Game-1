@@ -90,7 +90,7 @@ function gameEngine() {
     if (index === 0) {
       snakeElement.classList.add("head");
     } else {
-      snakeElement.classList.add("food");
+      snakeElement.classList.add("snake");
     }
     board.appendChild(snakeElement);
   });
